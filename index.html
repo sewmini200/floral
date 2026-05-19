@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Floral Studio</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="bi bi-flower1"></i> Floral</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Page</a></li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <div class="contact-info">
+                    <i class="bi bi-telephone-fill"></i> Contacts
+                </div>
+                <div class="nav-icons">
+                    <button class="icon-btn"><i class="bi bi-search"></i></button>
+                    <button class="icon-btn"><i class="bi bi-heart"></i></button>
+                    <a href="#" class="cart-btn">
+                        <span class="cart-icon">
+                            <i class="bi bi-bag"></i>
+                            <span class="cart-count">3</span>
+                        </span>
+                        <span class="cart-text">Cart</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero fade-up">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 pe-lg-5">
+                <span class="text-uppercase small d-block mb-3" style="color: var(--accent-orange); letter-spacing: 2px;">Mother's Day Special</span>
+                <h1>Happy Mother's Day!</h1>
+                <p style="font-size: 1.3rem; font-style: italic; color: var(--accent-orange); margin: 0.5rem 0 1rem;">20% Off For New Members</p>
+                <p class="my-4 fw-light" style="color: var(--text-muted); max-width: 500px;">
+                    A perfect blend of creativity, energy, communication, happiness and love. Let us arrange a smile for you.
+                </p>
+                <div class="d-flex gap-3 align-items-center mt-4">
+                    <button class="btn btn-primary-orange">Shop Now →</button>
+                    <a href="#" class="btn btn-outline-custom">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <div style="height: 450px;">
+                    <img src="assets/images/home.jpg" alt="Mother's Day Flowers" class="w-100 h-100 object-fit-cover rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Fresh Blooms Section -->
+<section class="py-5 fade-up" style="background: var(--bg-warm-brown);">
+    <div class="container text-center py-5">
+        <h2 class="display-5 fw-normal">Fresh blooms, <span class="italic-accent">reimagined</span><br>for you.</h2>
+        <div class="row g-4 mt-4">
+            <div class="col-md-4">
+                <div class="feature-card" style="background: rgba(255,255,255,0.03);">
+                    <i class="bi bi-tree"></i>
+                    <p class="mb-0">Selected for discovery gifts. We believe every occasion deserves fresh flowers.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card" style="background: rgba(255,255,255,0.03);">
+                    <i class="bi bi-flower1"></i>
+                    <p class="mb-0">our space is your sanctuary. Let flowers bring warmth to your home.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card" style="background: rgba(255,255,255,0.03);">
+                    <i class="bi bi-recycle"></i>
+                    <p class="mb-0">Want sustainable blooms? Bring nature home with our eco-friendly bouquets</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Free Delivery Section -->
+<section class="py-5 fade-up">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-header-left">
+                <div class="leaf-icon"><i class="bi bi-truck"></i></div>
+                <h2>Free Delivery</h2>
+                <p class="subtitle">Free shipping around the world for all orders over $100</p>
+                <div class="divider-custom"></div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="bi bi-mouse"></i>
+                    <h3>Online Order</h3>
+                    <p>Don't worry you can order online by our Site</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="bi bi-thermometer-half"></i>
+                    <h3>Preheating</h3>
+                    <p>You have freshness flowers every single order</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="bi bi-palette"></i>
+                    <h3>Made by Artist</h3>
+                    <p>World for all made by artists orders over now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- New Products Section-->
+<section class="py-5 fade-up" style="background: rgba(25, 19, 17, 0.5);">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-header-left">
+                <div class="leaf-icon"><i class="bi bi-flower2"></i></div>
+                <h2>New Products</h2>
+                <p class="subtitle">A perfect blend of creativity, energy, communication, happiness and love.</p>
+                <div class="divider-custom"></div>
+            </div>
+            <a href="#" class="view-all-link">Browse All Collection <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-img"><span class="product-badge">New</span><img src="assets/images/image2.jpg" alt="Spring Snowflake"></div>
+                <div class="product-info"><div class="product-name">Spring Snowflake</div><div class="product-price">$19.00 <del>(0.00)</del></div></div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><img src="assets/images/image3.jpg" alt="Rock Star"></div>
+                <div class="product-info"><div class="product-name">Rock Star</div><div class="product-price">$50.00</div></div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><img src="assets/images/image4.jpg" alt="Shasta"></div>
+                <div class="product-info"><div class="product-name">Shasta</div><div class="product-price">$39.00</div></div>
+            </div>
+            <div class="product-card">
+                <div class="product-img"><img src="assets/images/image5.jpg" alt="Torni"></div>
+                <div class="product-info"><div class="product-name">Torni</div><div class="product-price">$0.00</div></div>
+            </div>
+           
+</section>
+
+<!-- Valentine Banner -->
+<section class="valentine-banner fade-up">
+    <div class="container">
+        <h2><i class="bi bi-suit-heart-fill me-2"></i> Surprise Your Valentine!</h2>
+        <p style="font-size: 1.2rem; font-style: italic; margin: 0.5rem 0;">Let us arrange a smile For Her.</p>
+        <p style="max-width: 600px; margin: 0 auto; color: var(--text-muted);">Where flowers are our inspiration to create lasting memories. Whatever the occasion inspiration to create lasting memories...</p>
+        <div class="checklist">
+            <span><i class="bi bi-check-circle-fill"></i> Hand picked just for you.</span>
+            <span><i class="bi bi-check-circle-fill"></i> Hand picked just for you.</span>
+            <span><i class="bi bi-check-circle-fill"></i> Hand picked just for you.</span>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Items-->
+<section class="py-5 fade-up">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-header-left">
+                <div class="leaf-icon"><i class="bi bi-grid-3x3-gap-fill"></i></div>
+                <h2>Featured Items</h2>
+                <p class="subtitle">A perfect blend of creativity, energy, communication, happiness and love.</p>
+                <div class="divider-custom"></div>
+            </div>
+            <a href="#" class="view-all-link">View All Featured <i class="bi bi-arrow-right"></i></a>
+        </div>
+        
+        <div class="tabs-wrapper">
+            <button class="tab-btn active" onclick="showTab('new')">NEW</button>
+            <button class="tab-btn" onclick="showTab('best')">BEST SELLERS</button>
+        </div>
+        
+        <!-- NEW Tab -->
+        <div id="newTab" class="featured-grid">
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image2.jpg" alt="Lily Maystar Palm"></div>
+                <div class="featured-name">Lily Maystar Palm</div>
+                <div class="featured-price">$19.00 <del>(0.00)</del></div>
+            </div>
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image3.jpg" alt="Wild Roses"></div>
+                <div class="featured-name">Wild Roses</div>
+                <div class="featured-price">$9.00 <del>(0.00)</del></div>
+            </div>
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image2.jpg" alt="Spring Snowflake"></div>
+                <div class="featured-name">Spring Snowflake</div>
+                <div class="featured-price">$19.00 <del>(0.00)</del></div>
+            </div>
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image5.jpg" alt="Rock Star"></div>
+                <div class="featured-name">Rock Star</div>
+                <div class="featured-price">$50.00</div>
+            </div>
+            
+        </div>
+        
+        <!-- BEST SELLERS-->
+        <div id="bestTab" class="featured-grid" style="display: none;">
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image2.jpg" alt="Sweet Alyssum"></div>
+                <div class="featured-name">Sweet Alyssum</div>
+                <div class="featured-price">$10.00 <del>(0.00)</del></div>
+            </div>
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image4.jpg" alt="Summer Savory"></div>
+                <div class="featured-name">Summer Savory</div>
+                <div class="featured-price">$40.00 <del>(0.00)</del></div>
+            </div>
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image5.jpg" alt="Rock Star"></div>
+                <div class="featured-name">Rock Star</div>
+                <div class="featured-price">$50.00</div>
+            </div>
+            <div class="featured-item-card">
+                <div class="featured-img"><img src="assets/images/image3.jpg" alt="Marigold Palm"></div>
+                <div class="featured-name">Marigold Palm</div>
+                <div class="featured-price">$15.00 <del>(0.00)</del></div>
+            </div>
+           
+</section>
+
+<!-- Blog Section -->
+<section class="blog-section fade-up">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-header-left">
+                <div class="leaf-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                <h2>From Our Blog</h2>
+                <p class="subtitle">A perfect blend of creativity, energy, communication, happiness and love.</p>
+                <div class="divider-custom"></div>
+            </div>
+            <a href="#" class="view-all-link">Read All Articles <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <div class="blog-img"><img src="assets/images/image4.jpg" alt="Flower Care"></div>
+                <div class="blog-content">
+                    <div class="blog-category">Flower Care</div>
+                    <h4 class="blog-title">How to Keep Your Bouquet Fresh</h4>
+                    <p class="blog-excerpt">Expert tips to extend flower life...</p>
+                    <a href="#" class="blog-readmore">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-img"><img src="assets/images/image5.jpg" alt="Seasonal"></div>
+                <div class="blog-content">
+                    <div class="blog-category">Seasonal</div>
+                    <h4 class="blog-title">Art of Seasonal Arrangements</h4>
+                    <p class="blog-excerpt">Choose perfect blooms for each season...</p>
+                    <a href="#" class="blog-readmore">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-img"><img src="assets/images/image3.jpg" alt="Gift Guide"></div>
+                <div class="blog-content">
+                    <div class="blog-category">Gift Guide</div>
+                    <h4 class="blog-title">Perfect Flower Gift Every Time</h4>
+                    <p class="blog-excerpt">Emotional impact of floral gifts...</p>
+                    <a href="#" class="blog-readmore">Read More →</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-img"><img src="assets/images/image2.jpg" alt="Mother's Day"></div>
+                <div class="blog-content">
+                    <div class="blog-category">Mother's Day</div>
+                    <h4 class="blog-title">Best Mother's Day Arrangements</h4>
+                    <p class="blog-excerpt">Top picks for celebrating mom...</p>
+                    <a href="#" class="blog-readmore">Read More →</a>
+                </div>
+            </div>
+           
+</section>
+
+<!-- Flower Experts Section-->
+<section class="experts-section fade-up">
+    <div class="container">
+        <div class="section-header">
+            <div class="section-header-left">
+                <div class="leaf-icon"><i class="bi bi-people"></i></div>
+                <h2>Flower Experts</h2>
+                <p class="subtitle">A perfect blend of creativity, energy, communication, happiness and love.</p>
+                <div class="divider-custom"></div>
+            </div>
+            <a href="#" class="view-all-link">Meet All Experts <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="experts-grid">
+            <div class="expert-card">
+                <div class="expert-avatar"><img src="assets/images/image1.jpg" alt="Marco Alonso"></div>
+                <div class="expert-name">De Zoysa</div>
+                <div class="expert-role">Blogpost</div>
+                <p class="expert-desc">Senior floral designer with 12+ years experience.</p>
+            </div>
+            <div class="expert-card">
+                <div class="expert-avatar"><img src="assets/images/image1.jpg" alt="Shara Friken"></div>
+                <div class="expert-name">Shan Perera</div>
+                <div class="expert-role">Photographer</div>
+                <p class="expert-desc">Award-winning botanical photographer.</p>
+            </div>
+            <div class="expert-card">
+                <div class="expert-avatar"><img src="assets/images/image1.jpg" alt="Torvi Greco"></div>
+                <div class="expert-name">Dinusha Perera</div>
+                <div class="expert-role">Founder</div>
+                <p class="expert-desc">Visionary behind Bloom & Co.'s sustainable mission.</p>
+            </div>
+            <div class="expert-card">
+                <div class="expert-avatar"><img src="assets/images/image1.jpg" alt="Alonso Gomej"></div>
+                <div class="expert-name">Amali Zoysa</div>
+                <div class="expert-role">Florist</div>
+                <p class="expert-desc">Master florist specializing in weddings.</p>
+            </div>
+            
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter fade-up">
+    <div class="container">
+        <h2>Join The <span>Colorful</span> Bunch!</h2>
+        <p>Join our community and be part of our vibrant community.</p>
+        <div class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button>Subscribe <i class="bi bi-send ms-2"></i></button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-md-4">
+                <h5><i class="bi bi-flower1 me-2" style="color: var(--accent-orange);"></i> Floral</h5>
+                <p class="small" style="line-height: 1.7; color: var(--text-light);">
+                         Curating exquisite botanical artwork designed exclusively for premium architectural spaces and contemporary collectors.</p>               
+                 <div class="social-links">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-pinterest"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <h5>Explore</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Page</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Support</h5>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Visit Us</h5>
+                <ul class="footer-links">
+                    <li><a href="#">123 Flower Street, NY</a></li>
+                    <li><a href="#">hello@floral.com</a></li>
+                    <li><a href="#">+94 72346567</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="opacity-10 my-5"/>
+        <div class="d-flex flex-column flex-sm-row justify-content-between text-center small text-muted">
+            <p class="mb-2 mb-sm-0">© 2025 Floral — Sustainable floral design. All rights reserved.</p>
+            <p class="mb-0">Made with <i class="bi bi-suit-heart-fill" style="color: var(--accent-orange);"></i> for Mother's Day</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS + Internal JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Tab switching function for Featured Items
+    function showTab(tab) {
+        const newTab = document.getElementById('newTab');
+        const bestTab = document.getElementById('bestTab');
+        const btns = document.querySelectorAll('.tab-btn');
+        
+        if(tab === 'new') {
+            newTab.style.display = 'grid';
+            bestTab.style.display = 'none';
+            btns[0].classList.add('active');
+            btns[1].classList.remove('active');
+        } else {
+            newTab.style.display = 'none';
+            bestTab.style.display = 'grid';
+            btns[0].classList.remove('active');
+            btns[1].classList.add('active');
+        }
+    }
+    
+    // Scroll animation observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { 
+            if(entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.05 });
+    
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
